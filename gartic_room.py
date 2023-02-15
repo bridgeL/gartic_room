@@ -9,7 +9,14 @@ cat = AyakaCat("你画我猜")
 cat.help = "https://gartic.io/create"
 
 
-@cat.on_cmd(cmds="你画我猜")
+class Config(cat.Config):
+    cmds: list[str] = ["你画我猜"]
+
+
+config = Config()
+
+
+@cat.on_cmd(cmds=config.cmds)
 async def _():
     browser = await get_browser()
     page = await browser.new_page()

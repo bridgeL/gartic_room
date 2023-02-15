@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "gartic_room"
-version = "0.0.2"
+version = "0.0.3"
 description = "你画我猜组队"
 authors = ["Su <wxlxy316@163.com>"]
 license = "MIT"
