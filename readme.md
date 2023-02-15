@@ -1,6 +1,6 @@
 # 你画我猜组队
 
-安装：`pip install gartic_room[htmlrender]`
+安装：`pip install nonebot_plugin_gartic_room`
 
 命令：`你画我猜`
 

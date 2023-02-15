@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "gartic_room"
+name = "nonebot_plugin_gartic_room"
 version = "0.0.3"
 description = "你画我猜组队"
 authors = ["Su <wxlxy316@163.com>"]
@@ -14,12 +14,7 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.10"
 ayaka = {version = "^0.0.4.2", extras = ["nb2ob11", "playwright"]}
-nonebot_plugin_htmlrender = {version = ">=0.2.0.3", optional = true}
-
-
-[tool.poetry.extras]
-htmlrender = ["nonebot_plugin_htmlrender"]
-
+nonebot_plugin_htmlrender = ">=0.2.0.3"
 
 [build-system]
 requires = ["poetry-core"]
